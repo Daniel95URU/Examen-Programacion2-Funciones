@@ -39,7 +39,7 @@ int main(){
         EcuacionGrad2();
     break;
     case 2: 
-		printf ("\n\tSeleccionó: Cálculo del volúmen de una esfera.\n");
+	printf ("\n\tSeleccionó: Cálculo del volúmen de una esfera.\n");
         printf ("Ingrese el valor del Radio: "); 
 		scanf("%f", &R); 
         printf ("\nEl valor del volúmen redondeado quedaría = %.2f\n\n", round(VolEsfera(R)));
